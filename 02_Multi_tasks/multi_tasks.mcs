@@ -1,0 +1,150 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\app.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\app_hooks.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\bsp.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\bsp_a.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={C6E07232-414F-4A0C-AF99-CD44E2B71960}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1
+[File004]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\os_cpu_a.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={C6E07232-414F-4A0C-AF99-CD44E2B71960}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1
+[File005]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\os_cpu_c.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File006]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\os_cpu_util_a.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={C6E07232-414F-4A0C-AF99-CD44E2B71960}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g
+TraceCmdString=
+DebugOptions=--defsym=__DEBUG=1
+[File007]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\os_dbg.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File008]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\ucos_ii.o
+Folder=Intermediary
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={B1442D91-FF1F-4E60-9714-C39C1BA9DB62}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File009]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\multi_tasks.cof
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File010]
+Location=D:\UTAR\UEEA4663 EMBEDDED SYSTEM DESIGN\LAB_2_LAB_3\Lab 3 materials\02_Multi_tasks\multi_tasks.hex
+Folder=Output
+DeviceName=PIC24FJ64GA002
+LanguageToolSuiteID={9BCCB495-CD65-480A-BA76-63D8E78B117F}
+LanguageToolID={6836D8CA-42BB-48FB-9E77-3F0AA8005073}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\uCOS-II;.\Ports;.\App||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|App\app.c|App\app_hooks.c|App\bsp.c|App\bsp_a.s|Ports\os_cpu_a.s|Ports\os_cpu_c.c|Ports\os_cpu_util_a.s|Ports\os_dbg.c|uCOS-II\ucos_ii.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{C6E07232-414F-4A0C-AF99-CD44E2B71960}=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-as.exe
+tool_loc{B1442D91-FF1F-4E60-9714-C39C1BA9DB62}=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-gcc.exe
+tool_loc{6836D8CA-42BB-48FB-9E77-3F0AA8005073}=C:\Program Files (x86)\Microchip\xc16\v1.24\bin\xc16-ld.exe
